@@ -1,0 +1,11 @@
+ext {
+    guavaVersion = "19.0"
+    commonsLangVersion = "3.4"
+
+    logbackVersion = "1.1.7"
+
+    postgresDriverVersion = "9.4.1211.jre7"
+
+    junitVersion = "4.12"
+    mockitoVersion = "1.9.5"
+}
