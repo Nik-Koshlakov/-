@@ -350,7 +350,7 @@ public class MyUI extends UI {
                 content.setPlaceholder("input email");
 
                 buyPopup.addPopupVisibilityListener(popupVisibilityEvent -> {
-                    if (!session.getVisitorEmail().isEmpty())
+                    if (session.getVisitorEmail() != null)
                         content.setValue(session.getVisitorEmail());
                 });
 
